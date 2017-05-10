@@ -22,14 +22,26 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
 .container {
-  width: 600px;
+  width: 650px;
   margin: 0 auto;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.toggles {
+  text-align: right;
+  flex-basis: 50%;
 }
 
 h3 {
   margin-bottom: 12px;
-  font-family: 'Helvetica Neue';
+
   font-weight: bold;
   color: #4E5665;
   font-size: 36px;
@@ -44,15 +56,31 @@ ul {
   margin-top: 0;
   padding-left: 0;
 }
-
+.logo {
+  flex-basis: 50%;
+}
+.logo a {
+  text-decoration: none;
+}
+h1.pageTitle {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #4E5665;
+  margin: 0;
+}
+h2.pageSubtitle {
+  font-size: 16px;
+  font-weight: 300;
+  color: #4E5665;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
 .title {
-  font-family: 'Helvetica Neue';
   font-size: 20px;
   font-weight: 300;
 }
 
 .author {
-  font-family: 'Helvetica Neue';
   color: #90949C;
   font-size: 14px;
   margin-top: 8px;
@@ -65,6 +93,11 @@ ul {
   color: #54C7EC !important;
 }
 
+.header {
+  height: 100px;
+  background-color: #F5F5F5;
+}
+
 .footer {
   margin-top: 64px;
   margin-bottom: 32px;
@@ -73,6 +106,5 @@ ul {
   font-size: 12px;
   line-height: 16px;
   color: #4D5666;
-  font-family: 'Helvetica Neue';
   font-weight: 400;
 }

@@ -76,8 +76,22 @@ class App extends React.Component {
       )
     })
     return (
+      <div>
+      <div className="header">
+        <div className="container">
+          <div className="logo">
+          <a href="/">
+            <h1 className="pageTitle">Learn Product Design</h1>
+            <h2 className="pageSubtitle">A collection of resources to get started</h2>
+          </a>
+        </div>
+          <div className="toggles">
+          {Array.from(sectionNames.map((str) => <Toggle isToggled={str === this.state.sortIndex} myFunc={() => this.handleSetSortIndex2(str)} name={str}/>))}
+        </div>
+        </div>
+      </div>
       <div className="container">
-        {Array.from(sectionNames.map((str) => <Toggle isToggled={str === this.state.sortIndex} myFunc={() => this.handleSetSortIndex2(str)} name={str}/>))}
+
         {output}
 
 
@@ -85,7 +99,9 @@ class App extends React.Component {
         This is a collection of information on design as it relates to technology, that I've found useful in developing knowledge, skills, and perspective. It is developing and not intended in any way to be exhaustive.
       </div>
       </div>
+    </div>
       )
+
   }
 }
 
