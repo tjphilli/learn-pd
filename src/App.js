@@ -12,7 +12,7 @@ class App extends React.Component {
       data: [] // initial value should be the same data type (ie, Array) as the eventual real value
     }
     this.handleSetSortIndex = this.handleSetSortIndex.bind(this)
-    this.handleSetSortIndex2 = this.handleSetSortIndex.bind(this)
+    this.handleSetSortIndex2 = this.handleSetSortIndex2.bind(this)
   }
 
   componentWillMount () {
@@ -26,7 +26,8 @@ class App extends React.Component {
   }
 
   handleSetSortIndex2 (str) {
-
+    console.log(str)
+    this.setState({ sortIndex: str })
   }
 
   render () {
@@ -76,7 +77,7 @@ class App extends React.Component {
     })
     return (
       <div className="container">
-        {Array.from(sectionNames.map((str) => <Toggle name={str}/>))}
+        {Array.from(sectionNames.map((str) => <Toggle isToggled={str === this.state.sortIndex} myFunc={() => this.handleSetSortIndex2(str)} name={str}/>))}
         <select
           onChange={this.handleSetSortIndex}
           defaultValue={this.state.sortIndex}>

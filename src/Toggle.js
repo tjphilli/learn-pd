@@ -10,10 +10,11 @@ class Toggle extends Component {
     this.changeToggle = this.changeToggle.bind(this)
   }
   changeToggle (e) {
-    this.setState({toggled: !this.toggled})
+    // this.setState({toggled: !this.toggled})
+    this.props.myFunc()
   }
   render() {
-    return <div className={"Toggle " + (this.state.toggled ? "toggled" : "untoggled")} onClick={this.changeToggle}>{this.props.name}</div>;
+    return <div className={"Toggle " + (this.props.isToggled ? "toggled" : "untoggled")} onClick={this.changeToggle}>{this.props.name}</div>;
   }
 }
 
