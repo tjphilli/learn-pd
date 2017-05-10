@@ -8,7 +8,7 @@ class App extends React.Component {
   constructor () {
     super()
     this.state = {
-      sortIndex: 'medium', // this will be used for sorting
+      sortIndex: 'mediums', // this will be used for sorting
       data: [] // initial value should be the same data type (ie, Array) as the eventual real value
     }
     this.handleSetSortIndex = this.handleSetSortIndex.bind(this)
@@ -32,25 +32,25 @@ class App extends React.Component {
 
   render () {
     const uniqueTypes = this.state.data.reduce(
-      (memo, { medium }) => memo.add(medium),
+      (memo, { mediums }) => memo.add(mediums),
       new Set()
     )
     const uniqueTypesArr = Array.from(uniqueTypes)
     const uniqueDesigners = this.state.data.reduce(
-      (memo, { skill }) => memo.add(skill),
+      (memo, { skills }) => memo.add(skills),
       new Set()
     )
     const uniqueDesignersArr = Array.from(uniqueDesigners)
 
 
     const sectionNames = [
-      "medium",
-      "skill"
+      "mediums",
+      "skills"
     ]
 
     const uniquesObj = {
-      "medium" : uniqueTypesArr,
-      "skill" : uniqueDesignersArr
+      "mediums" : uniqueTypesArr,
+      "skills" : uniqueDesignersArr
     }
 
 
@@ -61,7 +61,7 @@ class App extends React.Component {
       })
       return (
         <div>
-          <h3>{currentType}s</h3>
+          <h3>{currentType}</h3>
           <ul>
              {justThisType.map((item) =>
                <li className="item">
@@ -78,12 +78,6 @@ class App extends React.Component {
     return (
       <div className="container">
         {Array.from(sectionNames.map((str) => <Toggle isToggled={str === this.state.sortIndex} myFunc={() => this.handleSetSortIndex2(str)} name={str}/>))}
-        <select
-          onChange={this.handleSetSortIndex}
-          defaultValue={this.state.sortIndex}>
-          <option disabled='disabled'>-- Select --</option>
-          {Array.from(sectionNames).map((str) => <option value={str}>{str}</option>)}
-        </select>
         {output}
 
 
