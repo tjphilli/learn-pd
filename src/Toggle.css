@@ -1,0 +1,21 @@
+.Toggle {
+  padding: 8px 0 8px;
+  color: #4C5667;
+  border: 1px solid #4C5667;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  border-radius: 100px;
+  font-size: 12px;
+  margin-right: 12px;
+}
+
+.Toggle:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.Toggle.toggled {
+  color: white;
+  background-color: #4C5667;
+}

@@ -1,0 +1,135 @@
+[
+{
+"title": "The Death of “Users” and “Product Design”",
+"link": "https://medium.com/the-year-of-the-looking-glass/the-death-of-users-and-product-design-a857f1ad2f3b",
+"medium": "writing",
+"skill": "product thinking",
+"author": "Julie Zhou"
+},
+{
+"title": "A Sense of Where You Are",
+"link": "https://medium.com/elegant-tools/a-sense-of-where-you-are-998543822ab1",
+"medium": "writing",
+"skill": "design process",
+"author": "Tom Broxton"
+},
+{
+"title": "Metrics Versus Experience",
+"link": "https://medium.com/the-year-of-the-looking-glass/metrics-versus-experience-a9347d6b80b",
+"medium": "writing",
+"skill": "data",
+"author": "Julie Zhou"
+},
+{
+"title": "Why Mechanics Design",
+"link": "https://design.quora.com/Why-Mechanics-Design",
+"medium": "writing",
+"skill": "product thinking",
+"author": "David Cole"
+},
+{
+"title": "Made to Measure",
+"link": "https://themanual.org/read/issues/4/david-cole/article",
+"medium": "writing",
+"skill": "data",
+"author": "David Cole"
+},
+{
+"title": "The Humane Representation of Thought",
+"link": "https://vimeo.com/115154289",
+"medium": "talk",
+"skill": "tbd",
+"author": "Bret Victor"
+},
+{
+"title": "When We Build",
+"link": "https://vimeo.com/34017777",
+"medium": "talk",
+"skill": "tbd",
+"author": "Wilson Miner"
+},
+{
+"title": "Applied Discovery",
+"link": "https://vimeo.com/150382185",
+"medium": "talk",
+"skill": "product thinking",
+"author": "David Cole"
+},
+{
+"title": "Design Details",
+"link": "https://spec.fm/podcasts/design-details",
+"medium": "podcast",
+"skill": "various",
+"author": "Various"
+},
+{
+"title": "Design Matters",
+"link": "http://www.debbiemillman.com/designmatters/",
+"medium": "podcast",
+"skill": "various",
+"author": "Debbie Millman"
+},
+{
+"title": "Sketch",
+"link": "https://www.sketchapp.com/",
+"medium": "tool",
+"skill": "visual design",
+"author": "na"
+},
+{
+"title": "Framer",
+"link": "https://framer.com/",
+"medium": "tool",
+"skill": "interaction design",
+"author": "na"
+},
+{
+"title": "Origami",
+"link": "http://origami.design/",
+"medium": "tool",
+"skill": "interaction design",
+"author": "na"
+},
+{
+"title": "Facebook Design Resources",
+"link": "http://facebook.design/",
+"medium": "resource",
+"skill": "various",
+"author": "na"
+},
+{
+"title": "iOS 10 GUI",
+"link": "http://facebook.design/ios10",
+"medium": "resource",
+"skill": "various",
+"author": "na"
+},
+{
+"title": "Design for the Real World",
+"link": "https://www.amazon.com/Design-Real-World-Ecology-Social/dp/0897331532/",
+"medium": "book",
+"skill": "empathy",
+"author": "Victor Papanek"
+},
+{
+"title": "Design for Real Life",
+"link": "https://abookapart.com/products/design-for-real-life",
+"medium": "book",
+"skill": "empathy",
+"author": "Eric Meyer"
+},
+{
+"title": "HIG",
+"link": "https://developer.apple.com/ios/human-interface-guidelines/overview/design-principles/",
+"medium": "resource",
+"skill": "various",
+"author": "na"
+},
+{
+"title": "Revision Path",
+"link": "http://revisionpath.com/",
+"medium": "podcast",
+"skill": "various",
+"author": "Maurice Cherry"
+}
+]
