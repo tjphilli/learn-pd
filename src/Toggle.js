@@ -10,7 +10,6 @@ class Toggle extends Component {
     this.changeToggle = this.changeToggle.bind(this)
   }
   changeToggle (e) {
-    // this.setState({toggled: !this.toggled})
     this.props.myFunc()
   }
   render() {

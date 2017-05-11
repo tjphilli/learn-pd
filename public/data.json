@@ -131,5 +131,47 @@
     "mediums": "podcasts",
     "skills": "various",
     "author": "Maurice Cherry"
+  },
+  {
+    "title": "What Screens Want",
+    "link": "https://www.youtube.com/watch?v=C65tiyH74D0",
+    "mediums": "talks",
+    "skills": "various",
+    "author": "Frank Chimero"
+  },
+  {
+    "title": "Data Stories",
+    "link": "http://datastori.es/",
+    "mediums": "podcasts",
+    "skills": "data",
+    "author": "Enrico Bertini and Moritz Stefaner"
+  },
+  {
+    "title": "Just Enough Research",
+    "link": "https://abookapart.com/products/just-enough-research",
+    "mediums": "books",
+    "skills": "research",
+    "author": "Erika Hall"
+  },
+  {
+    "title": "Set Phasers on Stun",
+    "link": "https://www.amazon.com/Set-Phasers-Stun-Design-Technology/dp/0963617885/",
+    "mediums": "books",
+    "skills": "empathy",
+    "author": "Steven Casey"
+  },
+  {
+    "title": "Craft by Invision",
+    "link": "https://www.invisionapp.com/craft",
+    "mediums": "tools",
+    "skills": "various",
+    "author": "Invision"
+  },
+  {
+    "title": "Material Design Guidelines",
+    "link": "https://material.io/guidelines/material-design/introduction.html",
+    "mediums": "resources",
+    "skills": "various",
+    "author": "Google"
   }
 ]

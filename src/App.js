@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 import Toggle from './Toggle.js'
+import ContentSection from './ContentSection.js'
+
 
 class App extends React.Component {
   constructor () {
@@ -61,17 +63,8 @@ class App extends React.Component {
       })
       return (
         <div>
-          <h3>{currentType}</h3>
-          <ul>
-             {justThisType.map((item) =>
-               <li className="item">
-                 <a href={item.link}>
-                 <div className="title">{item.title}</div>
-                 <div className="author">{item.author}</div>
-               </a>
-              </li>
-             )}
-          </ul>
+          <ContentSection sectionName={currentType} contentBlock={justThisType}/>
+
         </div>
       )
     })
