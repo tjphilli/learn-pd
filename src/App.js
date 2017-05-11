@@ -62,14 +62,13 @@ class App extends React.Component {
         return Boolean(namedAttribute === currentType)
       })
       return (
-        <div>
-          <ContentSection sectionName={currentType} contentBlock={justThisType}/>
+          <ContentSection sectionName={currentType} contentBlock={justThisType} showingAll={false}/>
 
-        </div>
       )
     })
+    const uniqueKey = Math.random() // to reset shit???
     return (
-      <div>
+      <div key={uniqueKey}>
       <div className="header">
         <div className="container">
           <div className="logo">
